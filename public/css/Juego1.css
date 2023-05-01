@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamic+Sans:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Balsamic Sans';
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--fuenteParrafos);
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+body {
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #AF473C;
+}
+
+header{
+    text-align: center;
+    background: #000;
+    color: #fff;
+    padding: 10px 0;
+}
+.container{
+    max-width: 700px;
+    margin: auto;
+    padding:20px;
+}
+section{
+    border: 2px solid #9EE5A6;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px 0;
+    background: #fff;
+
+
+}
+label{
+    display: block;
+    padding: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+    border: 1px dashed #ccc;
+    margin-bottom: 3px;
+
+}
+label:hover{
+    background: #cec0fc;
+}
+button{
+    border: none;
+    width: 100%;
+    color: black;
+    font-size: 20px;
+    background:  #626E60;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background: cadetblue;
+}
+h2{
+    text-align: center;
+}
+#resultado{
+    font-size: 30px;
+    color:#626E60;
+}
+
+img {
+    max-width: 100%;
+    width: 12rem;
+    height:12rem;
+    display: block;
+    margin: auto;
+}
+
+#btnTerminar {
+    display: none;
+    color:white;
+}
+
+.señales{
+    display: flex;
+    align-items: center;
+}
+
+.link{
+    float: center;
+    border: none;
+    width: 100px;
+    color: white;
+    font-size: 15px;
+    background:  black;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 970px;
+}
+.link:hover{
+    background: cadetblue;
+}
+
+.volver{
+    float: left;
+    border: none;
+    width: 100px;
+    color: white;
+    font-size: 15px;
+    background:  black;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 100px;
+    text-decoration: none;
+}
+.linkTer{
+    float: left;
+    border: none;
+    width: 100px;
+    color: white;
+    font-size: 15px;
+    background:  black;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 900px;
+
+}
+
+.datos{
+    padding-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.5rem;
+    color: black;
+}

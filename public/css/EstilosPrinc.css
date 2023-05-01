@@ -1,0 +1,178 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 2;
+    background-color: #AF473C;
+    color: #3C3C3C;
+    padding: 60px;
+}
+
+
+.TituloP{
+     font-size: 3.5rem;
+     font-family: 'Courier New', Courier, monospace;
+     font-weight: bold;
+}
+
+h2{
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-left: 2.5rem;
+}
+
+body{
+    text-align: center;
+}
+
+.comprar {
+    margin-left: 30%;
+}
+
+input[type="text"],span{
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 10%;
+    white-space: nowrap;
+}
+
+/** Grid **/
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(3,1fr);
+    }
+    .comprar {
+        margin-left: 38%;
+    }
+}
+
+.recompensas {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.botones, .salir{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    background-color: black;
+    color:azure;
+    padding: 5px 20px;
+    text-align: left;
+    margin: 0px;
+}
+
+.datos{
+    padding-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.5rem;
+    color: black;
+}
+
+
+
+.juegos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pie{
+    clear: both;
+    padding: 20px;
+    background-color: black;
+    color:white;
+    margin-top: 6rem;
+
+}
+
+
+
+article footer{
+    text-align: center;
+    margin-top: 20px;
+}
+
+img{
+    width:215px;
+    height: 145px;
+    border-radius: 10px;
+}
+
+.salir {
+    display: block;
+    background:  black;
+    color: white;
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 1rem 1rem;
+    text-decoration: none; 
+}
+
+.button{
+    display: block;
+    background:  black;
+    color: white;
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 1rem 1rem;
+    text-decoration: none;
+
+}
+.button:hover{
+    background: cadetblue;
+}
+
+.salir:hover{
+    background: cadetblue;
+}
+
+.btnedit{
+    width: 135px;
+}
+
+.alerta{
+    width:35px;
+    height:35px;
+    border-radius:5px;
+    background-color: white;
+    font-weight: 700;
+    font-size: 2rem;
+
+}
+
+.alerta:hover{
+    background: cadetblue;
+    cursor: pointer;
+}
